@@ -3,12 +3,30 @@
 <head>
   <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.5.0/model-viewer.min.js"></script>
 
-  <style>
+<style>
     model-viewer {
         width: 800px;
         height: 600px;
      }
-  </style>
+
+input[type=range] {
+  -webkit-appearance: none;
+}
+input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  background: orangered;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin-top: -20px;
+}
+input[type=range]::-webkit-slider-runnable-track {
+  width: 300px;
+  height: 10px;
+  background: orangered;
+}
+    
+</style>
   
 </head>
   
